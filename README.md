@@ -12,7 +12,7 @@ $ cd packages/b
 $ yarn start
 ```
 
-First, Yarn will hoist dependencies in the project root, after that you can link your packages among then and running without publish. Will you see in the `package.json` of `b` package that depends of `a` package and works great without any `./node_modules` folder inside it.
+First, Yarn will hoist dependencies in the project root, after that you can link your packages among then and running without publish. You'll see in the `package.json` of `b` package that depends of `a` package and works great without any `./node_modules` folder inside it.
 
 Workspaces are a great alternative for some monorepo tools and in the near future can be a better solution!
 
